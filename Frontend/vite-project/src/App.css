@@ -2,8 +2,10 @@
 .app {
   width: 100vw;
   height: 100vh;
+  background-color: #222;
+  color: white;
 }
-.app.dark {
+/*.app.dark {
   background-color: #222;
   color: white;
 }
@@ -11,7 +13,7 @@
 .app.light {
   background-color: #ffffff;
   color: #222;
-}
+}*/
 
 /*--------------------Forms-------------------*/
 .register-form {

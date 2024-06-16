@@ -8,11 +8,11 @@ export default function Users() {
 
     const getAllUsers = async () => {
         try {
-            const token = localStorage.getItem('token');
+           
             const response = await fetch("http://localhost:3000/api/users", {
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
+                    
                 }
             });
 

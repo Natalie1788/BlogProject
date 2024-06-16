@@ -25,7 +25,7 @@ function CreateUserPage() {
             if(response.ok) {
                 const data = await response.json();
                 console.log("response ok", data);
-                alert(`User ${username} created`);
+                alert(`User ${email} created`);
                 navigate('/account'); 
             } else {
                 throw new Error('Something went wrong!');

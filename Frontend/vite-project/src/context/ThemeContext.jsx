@@ -16,7 +16,7 @@ export const useTheme = () => {
 
 //-------------------------------------- hook wrapper-------------------------
 export const ThemeProvider = ({children}) => {
-    const [isDark, setIsDark] = useState(false)
+    const [isDark, setIsDark] = useState(true)
 
     const toggleTheme = () => {
       setIsDark((prev)=>!prev)

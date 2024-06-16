@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import './App.css'
-import { useTheme } from "./context/ThemeContext"
+//import { useTheme } from "./context/ThemeContext"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Users from "./pages/Users";
 import Posts from "./pages/Posts";
@@ -14,11 +14,12 @@ import GetPost from "./pages/GetPost"
 
 
 function App() {
-  const { isDark } = useTheme();
+  //const { isDark } = useTheme();
 
   return (
     <BrowserRouter>
-    <div className={`app ${isDark ? "dark" : "light"}`}>
+    {/*<div className={`app ${isDark ? "dark" : "light"}`}>*/}
+    <div className="app">
    <Navbar/>
    <Routes>
           <Route path="/" element={<Homepage />} />
