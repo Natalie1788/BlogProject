@@ -1,0 +1,34 @@
+.itemtext {
+    color: rgb(199, 203, 89);
+     margin-right: 50px;
+     font-size: 1.5rem;
+ }
+ .itemtext.dark {
+     color: rgb(0, 0, 0);
+ }
+ .itemtext.light {
+     color: rgb(234, 255, 48);
+ }
+ .list {
+  padding-top: 20px;
+     display: flex;
+     justify-content: flex-end;
+     /*margin-top: 70px;*/
+     list-style: none;
+ }
+ 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+  }
+  .menu.light {
+    background-color: rgb(238, 238, 238);
+  }
+  .menu.dark {
+    background-color: #222;
+  }
